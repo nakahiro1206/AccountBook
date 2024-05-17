@@ -1,20 +1,5 @@
 import Make
 import Check
-"""
-下準備
-python3 -m pip install openpyxl
-
-ファイル構造
--- chobo2023
- L keiri.py
-
-ディレクトリ移動
-cd /Users/nakanohiroki/taido/keiri/prototype/chobo2023/
-フォルダ作成してそこに移動
-mkdir -p 2023Jun; cd 2023Jun
-ファイル複製
-(一括で複製したい時)for f in ../2023May/*.xlsx;do cp $f ".${f:10:-14}230617更新).xlsx";done;
-"""
 def main():
     filepath="sample.xlsx"
 
